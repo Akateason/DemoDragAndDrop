@@ -101,6 +101,8 @@
     CGPoint pt = [session locationInView:self.view];
     self.lbPt.text = NSStringFromCGPoint(pt);
     
+    // 应用内UIDropOperationMove, 应用外UIDropOperationCopy
+    // TODO: 应用内要看编辑器什么情况, 这里可能要调整
     UIDropOperation dropOperation = session.localDragSession ? UIDropOperationMove : UIDropOperationCopy;
     UIDropProposal *dropProposal = [[UIDropProposal alloc] initWithDropOperation:dropOperation];
     return dropProposal;
