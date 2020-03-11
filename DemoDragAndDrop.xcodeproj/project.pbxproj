@@ -14,6 +14,8 @@
 		8FB80F442418C53000BC57B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FB80F432418C53000BC57B5 /* Assets.xcassets */; };
 		8FB80F472418C53000BC57B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB80F452418C53000BC57B5 /* LaunchScreen.storyboard */; };
 		8FB80F4A2418C53000BC57B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB80F492418C53000BC57B5 /* main.m */; };
+		8FCFD8332418D138007FE6DD /* record.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8FCFD8322418D138007FE6DD /* record.gif */; };
+		8FCFD8352418D531007FE6DD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8FCFD8342418D531007FE6DD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		8FB80F462418C53000BC57B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FB80F482418C53000BC57B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FB80F492418C53000BC57B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FCFD8322418D138007FE6DD /* record.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = record.gif; sourceTree = "<group>"; };
+		8FCFD8342418D531007FE6DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +75,9 @@
 				8FB80F432418C53000BC57B5 /* Assets.xcassets */,
 				8FB80F452418C53000BC57B5 /* LaunchScreen.storyboard */,
 				8FB80F482418C53000BC57B5 /* Info.plist */,
+				8FCFD8322418D138007FE6DD /* record.gif */,
 				8FB80F492418C53000BC57B5 /* main.m */,
+				8FCFD8342418D531007FE6DD /* README.md */,
 			);
 			path = DemoDragAndDrop;
 			sourceTree = "<group>";
@@ -134,6 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FB80F472418C53000BC57B5 /* LaunchScreen.storyboard in Resources */,
+				8FCFD8332418D138007FE6DD /* record.gif in Resources */,
+				8FCFD8352418D531007FE6DD /* README.md in Resources */,
 				8FB80F442418C53000BC57B5 /* Assets.xcassets in Resources */,
 				8FB80F422418C52C00BC57B5 /* Main.storyboard in Resources */,
 			);
